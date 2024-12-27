@@ -1,0 +1,10 @@
+Info on SWE642 Vue.js HW:
+
+-README.md file contains detailed documentation explaining our design, how to run the project, and
+other relevant information
+
+-Detailed comments on implementation are listed in every file
+
+-PowerPoint Presentation slides, along with recorded video and audio, is located in root directory file
+
+-MP4 Demonstration video in root directory file

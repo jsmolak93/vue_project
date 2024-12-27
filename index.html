@@ -1,0 +1,40 @@
+<!--
+  Authors: Jonathan Hus, Russell Bisker, John Smolak
+  Description:
+  The root HTML file for the application. It serves as the main entry point for the app and includes the mounting point for Vue components.
+
+  Structure:
+  - A responsive navigation bar styled with Bootstrap.
+  - The `<div id="app">` is the mounting point for the Vue.js app.
+  - Includes a link to the `main.js` script as a module for bootstrapping the app.
+
+  Usage:
+  - Modify this file to update metadata, links, or static assets for the app.
+-->
+
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">My Vue</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="/" class="nav-link">All Surveys</a>
+          </li>
+          <li class="nav-item">
+            <a href="/submit" class="nav-link">New Survey</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
